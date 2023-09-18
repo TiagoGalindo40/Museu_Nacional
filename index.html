@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--Normalize CSS-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    
+
+</head>
+<body>
+    <div id="container"><!--Inicio de container-->
+
+        <header><!--Inicio do Header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav><!--Inicio do Menu-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeo</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav><!--Fim de menu-->
+
+        </header><!--Fim do Header-->
+
+        <div id="principal"> <!---Início principal-->
+            <div id="conteudo"><!--Início de conteudo-->
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagem">
+                    <article id="video">
+                        <h3>Vídeo: conheça o museo</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/nBra4AwZtDc?si=UVuLMIYtmad673FK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu </h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15801.377069373166!2d-34.9632577!3d-8.0663237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1be5b258dc45%3A0xcba66c54ffed227a!2sInstituto%20Ricardo%20Brennand!5e0!3m2!1spt-BR!2sbr!4v1695039220637!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <li>
+                            <a href="#">Os assustadores insetos</a>
+                        </li>
+                        <li>
+                            <a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+                        </li>
+                        <li>
+                            <a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
+                        </li>
+                        <li>
+                            <a href="#">Plantas do Brasil central</a>
+                        </li>
+                        <li>
+                            <a href="#">Teresa Cristina: A Imperatriz Arquéologa</a>
+                        </li>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história da independencia</h3>
+                        <p>
+                            Em 2022, o Brasil comemora 200 anos de independência. Como parte da história e guardiã da memória do País, a Câmara dos Deputados realiza uma série de eventos desde 2017, como sessões solenes, exposições, concursos e lançamento de publicações, para lembrar fatos importantes que antecederam a data.
+                        </p>
+                        <a href="#"><strong>Leia mais</strong></a>
+                    </article>
+                    
+                </section>
+                
+            </div><!--fim de conteudo-->
+
+            <aside><!---Início da aside--->
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>
+
+                <section id="visita"><!---Início da seção visita-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+
+                    </form>
+                </section><!---Fim da seção visita-->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg" height="93" width="93" alt="descrição da imagem1">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem2.jpg" height="93" width="93" alt="descrição da imagem2">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem3.jpg" height="93" width="93" alt="descrição da imagem3">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem4.jpg" height="93" width="93" alt="descrição da imagem4">
+                    </a>
+
+                </section>
+
+
+            </aside><!---Fim da aside--->
+            <footer>
+                <p>
+                    <a href="#">Home</a>
+                    <a href="#">Esposições</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="#">Acervo</a>
+                    <a href="#">Vídeos</a>
+                    <a href="#">Fotos</a>
+                    <a href="#">Contato</a>
+                </p>
+                <p>
+                    2023 <a href="#">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+        </div><!--Fim de principal-->
+     
+
+    </div><!--Fim de container-->
+
+    
+</body>
+</html>
